@@ -199,9 +199,9 @@ double Matr::Norm()
 		{
 			int f = 0;
 			int e = 0;
-			if (f > r[i][k])//max
+			if (f > r[i][k])
 				f = r[i][k];
-			if (e < r[i][k])//min
+			if (e < r[i][k])
 				e = r[i][k];
 
 			b = (f - e);
